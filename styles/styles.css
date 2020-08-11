@@ -1,0 +1,151 @@
+body {
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+body form {
+  width: 100%;
+}
+
+body form .btn-dark {
+  background-color: black;
+  border-color: black;
+}
+
+body form .btn-dark:hover {
+  background-color: red;
+  border-color: red;
+}
+
+body .flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .section-title {
+  margin: 0;
+  width: 100%;
+}
+
+body hr {
+  width: 80%;
+  border-top: 1px solid black;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: red;
+}
+
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0;
+  padding: 10px;
+  width: 80%;
+  color: white;
+}
+
+body nav li {
+  list-style: none;
+}
+
+body nav a,
+body nav a:link,
+body nav a:visited,
+body nav a:hover,
+body nav a:active {
+  text-decoration: none;
+  color: white;
+}
+
+body nav a:hover,
+body nav a:link:hover,
+body nav a:visited:hover,
+body nav a:hover:hover,
+body nav a:active:hover {
+  color: #530000;
+  cursor: pointer;
+}
+
+body section {
+  margin: 80px;
+}
+
+body .header {
+  margin-top: 20px;
+}
+
+body .header h2 {
+  font-style: italic;
+  width: 100%;
+}
+
+body .header img {
+  width: 40%;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  body .header img {
+    width: 20%;
+  }
+}
+
+body .about .second {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+body .work a,
+body .work a:link,
+body .work a:visited,
+body .work a:hover,
+body .work a:active {
+  text-decoration: none;
+  color: #d30000;
+}
+
+body .work a:hover,
+body .work a:link:hover,
+body .work a:visited:hover,
+body .work a:hover:hover,
+body .work a:active:hover {
+  color: black;
+  cursor: pointer;
+}
+
+body .work p {
+  margin: 0;
+}
+
+body .work .work-list {
+  width: 100%;
+}
+
+body .work .work-list .work-item {
+  margin: 40px 0;
+}
+
+body .work .work-list .work-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=styles.css.map */
