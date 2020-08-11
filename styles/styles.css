@@ -17,6 +17,23 @@ body form .btn-dark:hover {
   border-color: #d30000;
 }
 
+body form a,
+body form a:link,
+body form a:visited,
+body form a:hover,
+body form a:active {
+  text-decoration: none;
+  color: white;
+}
+
+body form a:hover,
+body form a:link:hover,
+body form a:visited:hover,
+body form a:hover:hover,
+body form a:active:hover {
+  cursor: pointer;
+}
+
 body .flex-center {
   display: -webkit-box;
   display: -ms-flexbox;

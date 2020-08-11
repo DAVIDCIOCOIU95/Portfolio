@@ -13,6 +13,17 @@ body {
         border-color: rgb(211, 0, 0);
       }
     }
+    a,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 
   .flex-center {
