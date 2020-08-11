@@ -13,8 +13,8 @@ body form .btn-dark {
 }
 
 body form .btn-dark:hover {
-  background-color: red;
-  border-color: red;
+  background-color: #d30000;
+  border-color: #d30000;
 }
 
 body .flex-center {
@@ -31,6 +31,7 @@ body .flex-center {
 
 body .section-title {
   margin: 0;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -46,7 +47,7 @@ body nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: red;
+  background-color: #e60000;
 }
 
 body nav ul {
@@ -79,7 +80,7 @@ body nav a:link:hover,
 body nav a:visited:hover,
 body nav a:hover:hover,
 body nav a:active:hover {
-  color: #530000;
+  color: #3a0000;
   cursor: pointer;
 }
 
@@ -96,21 +97,19 @@ body .header h2 {
   width: 100%;
 }
 
-body .header img {
-  width: 40%;
+body .about img {
+  width: 250px;
   margin: 20px;
   border-radius: 50%;
 }
 
-@media (min-width: 768px) {
-  body .header img {
-    width: 20%;
-  }
+body .about p {
+  margin: 0;
+  width: 100%;
 }
 
-body .about .second {
-  width: 100%;
-  margin-bottom: 0;
+body .about button {
+  margin-top: 20px;
 }
 
 body .work a,
@@ -131,21 +130,28 @@ body .work a:active:hover {
   cursor: pointer;
 }
 
+body .work h3 {
+  margin: 10px 0;
+}
+
 body .work p {
   margin: 0;
 }
 
-body .work .work-list {
-  width: 100%;
+body .work .tech-stack {
+  margin: 5px 0;
+  font-weight: bold;
 }
 
 body .work .work-list .work-item {
-  margin: 40px 0;
+  margin: 0;
+  margin-bottom: 40;
 }
 
 body .work .work-list .work-item img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border: 10px solid black;
 }
 /*# sourceMappingURL=styles.css.map */

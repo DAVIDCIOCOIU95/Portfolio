@@ -9,8 +9,8 @@ body {
       border-color: black;
 
       &:hover {
-        background-color: red;
-        border-color: red;
+        background-color: rgb(211, 0, 0);
+        border-color: rgb(211, 0, 0);
       }
     }
   }
@@ -24,6 +24,7 @@ body {
 
   .section-title {
     margin: 0;
+    margin-bottom: 20px;
     width: 100%;
   }
 
@@ -36,7 +37,7 @@ body {
   nav {
     display: flex;
     justify-content: center;
-    background-color: red;
+    background-color: rgb(230, 0, 0);
     ul {
       display: flex;
       justify-content: space-around;
@@ -58,7 +59,7 @@ body {
       text-decoration: none;
       color: white;
       &:hover {
-        color: rgb(83, 0, 0);
+        color: rgb(58, 0, 0);
         cursor: pointer;
       }
     }
@@ -74,23 +75,25 @@ body {
       font-style: italic;
       width: 100%;
     }
-    img {
-      width: 40%;
-      margin: 20px;
-      border-radius: 50%;
-    }
-    @media (min-width: 768px) {
-      img {
-        width: 20%;
-      }
-    }
   }
 
   .about {
-    .second {
-      width: 100%;
-      margin-bottom: 0;
+    img {
+        width: 250px;
+        margin: 20px;
+        border-radius: 50%;
+       
+      }
+      
+    p {
+        margin: 0;
+        width: 100%;
     }
+
+    button {
+        margin-top: 20px;
+    }
+
   }
 
   .work {
@@ -106,18 +109,28 @@ body {
         cursor: pointer;
       }
     }
+    h3 {
+        margin: 10px 0;
+    }
     p {
         margin: 0;
     }
+
+    .tech-stack {
+        margin: 5px 0;
+        font-weight: bold;
+    }
       .work-list {
-        width: 100%;
+     
 
         .work-item {
-            margin: 40px 0;
+            margin: 0;
+            margin-bottom: 40;
            
         img {
             width: 100%;
             object-fit: cover;
+            border: 10px solid black;;
         }
         }
 
