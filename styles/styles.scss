@@ -28,10 +28,14 @@ body {
     width: 100%;
   }
 
-  
   hr {
     width: 80%;
     border-top: 1px solid black;
+  }
+
+  p {
+    margin: 0;
+    width: 100%;
   }
 
   nav {
@@ -79,21 +83,14 @@ body {
 
   .about {
     img {
-        width: 250px;
-        margin: 20px;
-        border-radius: 50%;
-       
-      }
-      
-    p {
-        margin: 0;
-        width: 100%;
+      width: 250px;
+      margin: 20px;
+      border-radius: 50%;
     }
 
     button {
-        margin-top: 20px;
+      margin-top: 20px;
     }
-
   }
 
   .work {
@@ -110,33 +107,25 @@ body {
       }
     }
     h3 {
-        margin: 10px 0;
-    }
-    p {
-        margin: 0;
+      margin: 10px 0;
     }
 
     .tech-stack {
-        margin: 5px 0;
-        font-weight: bold;
+      margin: 5px 0;
+      font-weight: bold;
     }
-      .work-list {
-     
+    .work-list {
+      .work-item {
+        margin: 0;
+        margin-bottom: 40;
 
-        .work-item {
-            margin: 0;
-            margin-bottom: 40;
-           
         img {
-            width: 100%;
-            object-fit: cover;
-            border: 10px solid black;;
+          width: 100%;
+          object-fit: cover;
+          border: 2px solid black;
         }
-        }
-
       }
-      
-      
+    }
   }
 
   .contact {
