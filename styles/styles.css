@@ -8,6 +8,7 @@ body form {
 }
 
 body form .btn-dark {
+  margin-top: 20px;
   background-color: black;
   border-color: black;
 }
@@ -17,20 +18,20 @@ body form .btn-dark:hover {
   border-color: #d30000;
 }
 
-body form a,
-body form a:link,
-body form a:visited,
-body form a:hover,
-body form a:active {
+body a,
+body a:link,
+body a:visited,
+body a:hover,
+body a:active {
   text-decoration: none;
   color: white;
 }
 
-body form a:hover,
-body form a:link:hover,
-body form a:visited:hover,
-body form a:hover:hover,
-body form a:active:hover {
+body a:hover,
+body a:link:hover,
+body a:visited:hover,
+body a:hover:hover,
+body a:active:hover {
   cursor: pointer;
 }
 
@@ -125,10 +126,6 @@ body .about img {
   border-radius: 50%;
 }
 
-body .about button {
-  margin-top: 20px;
-}
-
 body .work a,
 body .work a:link,
 body .work a:visited,
@@ -166,5 +163,33 @@ body .work .work-list .work-item img {
   -o-object-fit: cover;
      object-fit: cover;
   border: 2px solid black;
+}
+
+body .contact .in {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  border-radius: 50%;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60px;
+}
+
+body .contact .in:hover {
+  color: white;
+  background-color: #1666c5;
+}
+
+body .footer {
+  color: white;
+  background-color: black;
+}
+
+body .footer p {
+  font-family: "Barlow", sans-serif;
+  margin: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

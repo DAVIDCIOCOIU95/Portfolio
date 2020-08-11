@@ -5,24 +5,25 @@ body {
   form {
     width: 100%;
     .btn-dark {
+      margin-top: 20px;
       background-color: black;
       border-color: black;
-
       &:hover {
         background-color: rgb(211, 0, 0);
         border-color: rgb(211, 0, 0);
       }
     }
-    a,
-    a:link,
-    a:visited,
-    a:hover,
-    a:active {
-      text-decoration: none;
-      color: white;
-      &:hover {
-        cursor: pointer;
-      }
+  }
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      cursor: pointer;
     }
   }
 
@@ -53,6 +54,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(230, 0, 0);
+    
     ul {
       display: flex;
       justify-content: space-around;
@@ -98,10 +100,6 @@ body {
       margin: 20px;
       border-radius: 50%;
     }
-
-    button {
-      margin-top: 20px;
-    }
   }
 
   .work {
@@ -140,5 +138,30 @@ body {
   }
 
   .contact {
+    .in {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      border-radius: 50%;
+      margin-top: 20px;
+
+      color: white;
+      background-color: black;
+      padding: 5px;
+      object-fit: cover;
+      width: 60px;
+      &:hover {
+        color: white;
+        background-color: rgb(22, 102, 197);
+      }
+    }
+  }
+
+  .footer {
+    color: white;
+    background-color: black;
+    p {
+      font-family: "Barlow", sans-serif;
+      margin: 10px;
+    }
   }
 }
